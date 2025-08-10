@@ -10,9 +10,6 @@ export default function Home() {
         </p>
         <p>Previously, I worked as a Mobile Developer in <a href="https://www.linkedin.com/company/dptsi-its/" className="hyperlink">DPTSI</a> . </p>
         <p>Check out some of my <Link href="/portfolio" className="hyperlink">Projects</Link> </p>
-
-
-
       </section>
     </main>
   );
