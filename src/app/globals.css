@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  /* Gruvbox Light */
+  --background: #fbf1c7; /* bg0 */
+  --foreground: #3c3836; /* fg */
+  --surface: #ebdbb2;    /* bg2 */
+  --nav-background: #3c3836; /* dark bar on light bg */
+  --link-color: #d79921; /* yellow */
+  --muted: #7c6f64;      /* gray */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Gruvbox Dark */
+    --background: #32302F; /* bg0_hard */
+    --foreground: #ebdbb2; /* fg */
+    --surface: #282828;    /* bg1 */
+    --nav-background: #504945; /* bar on dark bg */
+    --link-color: #fabd2f; /* yellow */
+    --muted: #a89984;      /* gray */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.hyperlink{
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+h1{
+  font-size: large;
+  font-weight: bold;
+}
+
+p{
+  font-size: medium;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
