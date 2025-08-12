@@ -6,7 +6,7 @@
   --foreground: #3c3836; /* fg */
   --surface: #ebdbb2;    /* bg2 */
   --nav-background: #3c3836; /* dark bar on light bg */
-  --link-color: #d79921; /* yellow */
+  --link-color: #F9D094; /* yellow */
   --muted: #7c6f64;      /* gray */
 }
 
@@ -24,7 +24,7 @@
     --foreground: #ebdbb2; /* fg */
     --surface: #282828;    /* bg1 */
     --nav-background: #504945; /* bar on dark bg */
-    --link-color: #fabd2f; /* yellow */
+    --link-color: #F9D094; /* yellow */
     --muted: #a89984;      /* gray */
   }
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .hyperlink{
-  color: var(--link-color);
+  color: #FF6969;
   font-weight: bold;
   text-decoration: none;
   font-size: 19px;
