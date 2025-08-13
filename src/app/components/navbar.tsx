@@ -9,7 +9,7 @@ const Navbar: FC = () => {
         <Link href="/" className={styles.link}>
           About Me
         </Link>
-        <Link href="/portfolio" className={styles.link}>Projects</Link>
+        <Link href="/portfolio" className={styles.link}>Portfolio</Link>
       </div>
       <div className={styles.right}>
         <Link href="/" className={styles.brand}>Kamal’s Info</Link>
