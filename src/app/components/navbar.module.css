@@ -10,12 +10,11 @@
 .left {
   display: flex;
   gap: 24px;
-  transform: translateX(-100px);
+  padding-left:350px;
 }
 
 .right {
-  position: absolute;
-  right: 10px;
+  margin-left: auto;
 }
 
 .link {

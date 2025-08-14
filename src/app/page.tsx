@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <section style={{ textAlign: "left", padding: "20px" }}>
+      <section style={{ textAlign: "left", margin:"auto", paddingLeft: "350px", }}>
         <h1 style={{ color: "#FF6969", fontSize: "56px", marginBottom: "16px" }}>About Me</h1>
         <p style={{ maxWidth: "600px", lineHeight: 1.5 }}>
           My name is Mohammad Kamal , I am a software engineer from Indonesia with experience in mobile development, web development, computer vision, and natural language processing.
