@@ -1,18 +1,21 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--nav-background);
   padding: 10px;
+  position: relative;
 }
 
 .left {
   display: flex;
   gap: 24px;
+  transform: translateX(-100px);
 }
 
 .right {
-  margin-left: auto;
+  position: absolute;
+  right: 10px;
 }
 
 .link {
