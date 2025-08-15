@@ -23,24 +23,24 @@ export default function Home() {
             Projects
           </Link>
         </p>
-      <div className="flex gap-12 justify-center text-amber-500 sm:justify-start max-w-3xl mt-6">
+      <div className="flex font-helvetica gap-12 justify-center text-amber-500 sm:justify-start max-w-3xl mt-6">
         <a
           href="https://github.com/brokamal"
-          className="flex items-center gap-1 font-bold hover:text-white hover:underline"
+          className="flex items-center gap-1 font-helvetica font-bold hover:text-amber-100 hover:underline"
         >
-            github
+            ↖︎ Github 
         </a>
         <a
           href="https://linkedin.com/in/mohammad-kamal-bdg"
-          className="flex items-center gap-1 text-amber-500"
+          className="flex items-center gap-1 text-amber-500 font-helvetica font-bold hover:text-amber-100 hover:underline"
         >
-           linkedin
+           ↖︎ Linkedin
         </a>
         <a
-          href="#"
-          className="text-xl flex items-center gap-1 text-gray-300 hover:text-white"
+          href="/CV.pdf"
+          className="text-xl flex font-helvetica items-center gap-1 font-bold text-amber-500 hover:underline hover:text-amber-100"
         >
-           CV
+            ↖︎ CV
         </a>
       </div>
       </section>
