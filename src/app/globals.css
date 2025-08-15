@@ -31,21 +31,7 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
   font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI,
     Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-.hyperlink{
-  color: #FF6969;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 19px;
-}
-
-
-p{
-  font-size: large;
-  font-weight: normal;
-  padding-bottom: 10px;
-}

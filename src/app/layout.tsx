@@ -8,6 +8,8 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -25,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${geistSans.variable} ${geistMono.variable} antialiased`} lang="en">  
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+      <body className="antialiased">
         <Navbar />
-        {children}
+        <main className="max-w-xl mx-4 mt-8 lg:mx-auto flex-auto min-w-0 flex flex-col px-2 md:px-0">
+          {children}
         </main>
       </body>
     </html>
