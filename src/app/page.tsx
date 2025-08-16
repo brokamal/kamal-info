@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <p className="font-bold font-helvetica text-white">
           Check out some of my{" "}
-          <Link href="/portfolio" className="text-[#FF6969] hover:underline">
+          <Link href="/projects" className="text-[#FF6969] hover:underline">
             Projects
           </Link>
         </p>

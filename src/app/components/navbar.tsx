@@ -14,10 +14,10 @@ const Navbar: FC = () => {
       About Me
     </Link>
     <Link
-      href="/portfolio"
+      href="/projects"
       className="mx-2 hover:underline transition-colors font-helvetica text-xl font-bold"
     >
-      Portfolio
+      Projects
     </Link>
   </div>
 </nav>
