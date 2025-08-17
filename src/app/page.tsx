@@ -4,7 +4,7 @@ export default function Home() {
   return (
       <section>
        <h1 className="text-[#F9D094] text-5xl mb-4 font-helvetica font-bold tracking-tight">About Me</h1>
-        <p className="mb-4 font-helvetica font-bold text-white">
+        <p className="mb-4 font-serif text-white">
           My name is Mohammad Kamal, I am a software engineer from Indonesia with experience in mobile development, web development, computer vision, and natural language processing.
         </p>
         <p className="font-helvetica font-bold text-white">
