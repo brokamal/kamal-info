@@ -23,6 +23,9 @@ export default function Home() {
             Projects
           </Link>
         </p>
+      <p className="font-helvetica text-white">
+        Stacks: C, C++, Python, Java, Kotlin, Javascript, gold.
+      </p>
       <div className="flex font-helvetica gap-12 justify-center text-amber-500 sm:justify-start max-w-3xl mt-6">
         <a
           href="https://github.com/brokamal"
