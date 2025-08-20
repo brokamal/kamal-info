@@ -1,4 +1,5 @@
 import "../globals.css";
+import Link from "next/link"
 
 
 export default function ProjectsPage() {
@@ -8,6 +9,9 @@ export default function ProjectsPage() {
         <p className="mb-4 font-sans text-white">
           Here are some of my projects that I have worked on.
         </p>
+      <Link href="https://github.com/brokamal/SundaScriptOCR" className="text-white underline text-xl">Sundanese Script OCR</Link> 
+
+
    </main>
   );
 }
