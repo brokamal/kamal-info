@@ -9,7 +9,11 @@ export default function ProjectsPage() {
         <p className="mb-4 font-sans text-white">
           Here are some of my projects that I have worked on.
         </p>
-      <Link href="https://github.com/brokamal/SundaScriptOCR" className="text-white underline text-xl">Sundanese Script OCR</Link> 
+      <Link href="https://github.com/brokamal/SundaScriptOCR" className="text-amber-500 hover:text-white underline text-xl">Sundanese Script OCR</Link> 
+      <p></p>
+      <Link href="https://github.com/brokamal/CuacaApp" className="text-amber-500 hover:text-white underline text-xl">CuacaApp</Link> 
+
+
 
 
    </main>
