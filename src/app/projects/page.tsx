@@ -14,9 +14,6 @@ export default function ProjectsPage() {
       <Link href="https://github.com/brokamal/CuacaApp" className="text-amber-500 hover:text-white underline text-xl">CuacaApp</Link> 
       <p></p>
       <Link href="https://github.com/brokamal/nolimit-ds-test-mohammad-kamal" className="text-amber-500 hover:text-white underline text-xl">Rotten Tomatoes Review Sentiment Classifier</Link>
-
-
-
    </main>
   );
 }
