@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+// const section ok
+
+
+
+
 export default function Home() {
   return (
       <section>
