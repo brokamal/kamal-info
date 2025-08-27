@@ -2,11 +2,9 @@ import Link from "next/link";
 
 // const section ok
 
-
-
-
 export default function Home() {
   return (
+    <>
       <section>
        <h1 className="text-[#F9D094] text-5xl mb-4 font-helvetica font-bold tracking-tight">About Me</h1>
         <p className="mb-4 font-sans text-white">
@@ -28,27 +26,7 @@ export default function Home() {
             Projects
           </Link>
         </p>
-     <div className="flex font-helvetica gap-12 justify-center text-amber-500 sm:justify-start max-w-3xl mt-6">
-        <a
-          href="https://github.com/brokamal"
-          className="flex items-center gap-1 font-sans font-bold hover:text-amber-100 hover:underline"
-        >
-            ↖︎ Github 
-        </a>
-        <a
-          href="https://linkedin.com/in/mohammad-kamal-bdg"
-          className="flex items-center gap-1 text-amber-500 font-sans font-bold hover:text-amber-100 hover:underline"
-        >
-           ↖︎ Linkedin
-        </a>
-        <a
-          href="/CV.pdf"
-          className="text-xl flex font-helvetica items-center gap-1 font-bold text-amber-500 hover:underline hover:text-amber-100"
-        >
-            ↖︎ CV
-        </a>
-      </div>
-      </section>
-
+     </section>
+      </>
   );
 }
