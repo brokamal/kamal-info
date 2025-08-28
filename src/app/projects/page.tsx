@@ -29,7 +29,7 @@ export default function ProjectsPage() {
             <Link
               key={path}
               href={path}
-              className="text-pink-300 hover:text-white underline text-xl"
+              className="text-red-100 hover:text-white underline text-xl"
             >
               {name}
             </Link>
