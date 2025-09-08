@@ -12,8 +12,6 @@ const footItems = {
   },
 }
 
-
-
 export default function Footer() {
   return (
     <div className="flex font-helvetica gap-12 justify-center text-amber-500 sm:justify-start max-w-3xl mt-6">
@@ -21,7 +19,7 @@ export default function Footer() {
         <Link
           key={path}
           href={path}
-          className="flex items-center gap-1 font-sans font-bold hover:text-amber-100 hover:underline"
+          className="flex text-xl items-center gap-1 font-sans font-bold hover:text-amber-100 hover:underline"
         >
           {name}
         </Link>
